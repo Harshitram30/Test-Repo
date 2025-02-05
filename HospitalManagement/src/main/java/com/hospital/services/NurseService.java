@@ -1,0 +1,18 @@
+package com.hospital.services;
+
+import java.util.List;
+
+import com.hospital.entities.Nurse;
+
+public interface NurseService {
+	
+	boolean registerNurse(Nurse nurse);
+	List<Nurse> getAll();
+	Nurse getById(Integer id);
+	String getPositionBy(Integer id);
+	boolean getRegisteredBy(Integer id);
+	Nurse updateRegisteredBy(Integer id, Boolean registered);
+	Nurse updateSsnBy(Integer id, Integer ssn);
+	boolean deleteBy(Integer id);
+
+}
