@@ -29,7 +29,6 @@ import com.hospital.payload.response.MessageResponse;
 import com.hospital.payload.response.UserInfoResponse;
 import com.hospital.repositories.RoleRepository;
 import com.hospital.repositories.UserRepository;
-import com.hospital.security.JwtUtils;
 import com.hospital.services.impl.UserDetailsImpl;
 
 import jakarta.validation.Valid;
